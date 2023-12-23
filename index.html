@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>
+                BMI
+            </h1>
+        </div>
+        <div class="height">
+            <h3>
+                Height(cm):
+            </h3>
+            <input type="number" id="height">
+        </div>
+        <div class="weight">
+            <h3>
+                Weight(kg):
+            </h3>
+            <input type="number" id="weight">
+        </div>
+        <button id="cal">
+            Calculate BMI
+        </button>
+        <div id="result">
+            <p>
+                Your BMI is <span id="bmi-value"></span> and you are <span id="bmi-status"></span>
+            </p> 
+        </div>
+    </div>
+</body>
+</html>
